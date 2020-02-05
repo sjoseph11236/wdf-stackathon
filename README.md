@@ -3,7 +3,7 @@
 ## SET-UP:
   - Create a directory: `mkdir directory_name`.
   -`cd directory_name`.
-  - Open text editor with `code .`.
+  - Open text editor with `code .`
   -`git init`.
   -`npm init`.
   - Set main to server.js.
