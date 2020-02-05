@@ -11,6 +11,7 @@
   - Write node_modules in the .gitignore file.
   - Install express and concurrently: `npm i express concrurrently`.
   - Install nodemon `npm i nodemon --save-dev`.
+  - Install morgan `npm i morgan`.
 
   - In the package.json add start in scripts with "node server.js".
   - Also add server in scripts "nodemon server.js".

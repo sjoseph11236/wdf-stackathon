@@ -1,7 +1,10 @@
 const express = require('express');
 const app = express();
+const morgan = require('morgan');
 
-app.get('api/videos', (req, res) => {
+app.use(morgan('tiny'));
+
+app.get('/api/videos', (req, res) => {
   res.send('hello');
 });
 
