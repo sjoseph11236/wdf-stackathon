@@ -21,3 +21,19 @@
 ## SET-UP ClIENT: 
   - In main directory run the command `create-react-app client` 
   - In the client folder package.json add a proxy below scripts with url for the server.
+
+
+## SET-UP CONCURRENT: 
+  - In scripts add: 
+
+  ``` 
+  "client-install": "cd client && npm install",
+  "client": "npm start --prefix client", 
+  "dev": "concurrently \"npm run server\" \"npm run client\""
+  ```
+
+  - **Add client-install so that when you run npm install it installs the package.json in client.**
+
+### Sources:
+
+Traversy Media's tutorial on Youtube is helpful to set-up both express and create-react-app: [React & Express Starter Pack](https://www.youtube.com/watch?v=v0t42xBIYIs&t=125s)

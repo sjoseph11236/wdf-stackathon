@@ -16,7 +16,6 @@ class App extends Component {
 
   render() {
     const { customers } = this.state;
-    console.log("TCL: App -> render -> customers ", customers )
     
     return (
       <div className="App">
